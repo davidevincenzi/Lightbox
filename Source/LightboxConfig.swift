@@ -2,6 +2,7 @@ import UIKit
 import AVKit
 import AVFoundation
 
+@MainActor
 public class LightboxConfig {
   /// Whether to show status bar while Lightbox is presented
   public static var hideStatusBar = true
