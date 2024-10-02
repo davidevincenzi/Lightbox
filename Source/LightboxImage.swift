@@ -1,5 +1,6 @@
 import UIKit
 
+@MainActor
 open class LightboxImage {
 
   open fileprivate(set) var image: UIImage?
